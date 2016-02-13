@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C3D1FC27-6A60-43F5-BF4A-13EB8014039F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3E18AA53-3A68-41E4-819A-81FBE5B2032F}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DioLive.Orion.Cards.Core", "src\DioLive.Orion.Cards.Core\DioLive.Orion.Cards.Core.xproj", "{73906E6A-63F7-4D17-BE0B-401D0335F5A5}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DioLive.Common.Extensions", "src\DioLive.Common.Extensions\DioLive.Common.Extensions.xproj", "{035BDC2B-6D2D-4372-B0BD-2C20A86EA044}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DioLive.Common.Helpers", "src\DioLive.Common.Helpers\DioLive.Common.Helpers.xproj", "{4912A5AD-3D14-4F06-94C5-1D4AFCF20D85}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DioLive.Orion.Games.Poker", "src\DioLive.Orion.Games.Poker\DioLive.Orion.Games.Poker.xproj", "{A925E2FE-DCE0-4A0A-A4C5-D669C74291AE}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DioLive.Orion.Cards.Classic", "src\DioLive.Orion.Cards.Classic\DioLive.Orion.Cards.Classic.xproj", "{AA0C32FE-E216-4CF2-847A-D3A275B06CFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73906E6A-63F7-4D17-BE0B-401D0335F5A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73906E6A-63F7-4D17-BE0B-401D0335F5A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73906E6A-63F7-4D17-BE0B-401D0335F5A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73906E6A-63F7-4D17-BE0B-401D0335F5A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{035BDC2B-6D2D-4372-B0BD-2C20A86EA044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{035BDC2B-6D2D-4372-B0BD-2C20A86EA044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{035BDC2B-6D2D-4372-B0BD-2C20A86EA044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{035BDC2B-6D2D-4372-B0BD-2C20A86EA044}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4912A5AD-3D14-4F06-94C5-1D4AFCF20D85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4912A5AD-3D14-4F06-94C5-1D4AFCF20D85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4912A5AD-3D14-4F06-94C5-1D4AFCF20D85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4912A5AD-3D14-4F06-94C5-1D4AFCF20D85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A925E2FE-DCE0-4A0A-A4C5-D669C74291AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A925E2FE-DCE0-4A0A-A4C5-D669C74291AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A925E2FE-DCE0-4A0A-A4C5-D669C74291AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A925E2FE-DCE0-4A0A-A4C5-D669C74291AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA0C32FE-E216-4CF2-847A-D3A275B06CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA0C32FE-E216-4CF2-847A-D3A275B06CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA0C32FE-E216-4CF2-847A-D3A275B06CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA0C32FE-E216-4CF2-847A-D3A275B06CFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{73906E6A-63F7-4D17-BE0B-401D0335F5A5} = {C3D1FC27-6A60-43F5-BF4A-13EB8014039F}
+		{035BDC2B-6D2D-4372-B0BD-2C20A86EA044} = {C3D1FC27-6A60-43F5-BF4A-13EB8014039F}
+		{4912A5AD-3D14-4F06-94C5-1D4AFCF20D85} = {C3D1FC27-6A60-43F5-BF4A-13EB8014039F}
+		{A925E2FE-DCE0-4A0A-A4C5-D669C74291AE} = {C3D1FC27-6A60-43F5-BF4A-13EB8014039F}
+		{AA0C32FE-E216-4CF2-847A-D3A275B06CFF} = {C3D1FC27-6A60-43F5-BF4A-13EB8014039F}
+	EndGlobalSection
+EndGlobal
